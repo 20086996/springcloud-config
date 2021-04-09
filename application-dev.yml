@@ -5,6 +5,8 @@ spring:
     url: jdbc:mysql://172.18.8.117:3306/new_assets_db?useAffectedRows=true&allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=CTT&zeroDateTimeBehavior=convertToNull
     username: root
     password: 7cz.jXR3mycw
+  kafka:
+    bootstrap-servers: 172.18.8.97:9092
 
 eureka:
   client:
