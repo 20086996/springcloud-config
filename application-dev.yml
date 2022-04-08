@@ -36,7 +36,7 @@ mybatis:
 #开启
 feign:
   hystrix:
-    enabled: true
+    enabled: false
 
 
 config:
